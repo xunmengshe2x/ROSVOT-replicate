@@ -1,6 +1,7 @@
 build:
   gpu: true
   python_version: "3.9"
+  cuda: "11.8"
   system_packages:
     - "ffmpeg"
     - "libsndfile1"
@@ -30,7 +31,4 @@ build:
     - requests
     - wget
 
-predict:
-  gpu: true
-  python_version: "3.9"
-  cuda: "11.8"
+predict: "predict.py:Predictor"
