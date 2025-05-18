@@ -19,6 +19,4 @@ build:
     - requests==2.31.0
     - wget==3.2
 
-predict:
-  python_path: "."
-  gpu: true
+predict: "predict.py:Predictor"
