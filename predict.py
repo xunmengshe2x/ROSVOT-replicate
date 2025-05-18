@@ -16,7 +16,7 @@ class Output(BaseModel):
 
 class Predictor(BasePredictor):
     def setup(self):
-        """Load the model into memory to make running multiple predictions efficient""
+        """Load the model into memory to make running multiple predictions efficient"""
         # Create necessary directories
         os.makedirs("checkpoints/rosvot", exist_ok=True)
         os.makedirs("checkpoints/rwbd", exist_ok=True)
