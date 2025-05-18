@@ -13,7 +13,7 @@ build:
     - tqdm==4.65.0
     - matplotlib==3.5.0
     - pyyaml==6.0.1
-    - pretty_midi==0.2.12
+    - pretty_midi==0.2.10
     - pyworld==0.3.4
     - einops==0.7.0
     - requests==2.31.0
