@@ -49,7 +49,7 @@ class Predictor(BasePredictor):
         max_frames: int = 30000,
         save_plot: bool = True,
     ) -> Output:
-        """Run a single prediction on the model""
+        """Run a single prediction on the model"""
         try:
             # Create temporary output directory
             output_dir = PathLib("output")
