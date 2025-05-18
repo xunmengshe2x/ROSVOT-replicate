@@ -35,7 +35,7 @@ class Predictor(BasePredictor):
         for model_name, url in model_urls.items():
             model_path = f"checkpoints/{model_name}/model.pt"
             if not os.path.exists(model_path):
-                print(f"Downloading {model_name} model..."
+                print(f"Downloading {model_name} model...")
                 wget.download(url, model_path)
         
         # Initialize ROSVOT
