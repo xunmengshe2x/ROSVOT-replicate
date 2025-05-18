@@ -1,0 +1,24 @@
+build:
+  gpu: true
+  python_version: "3.9"
+  system_packages:
+    - "libsndfile1"
+    - "ffmpeg"
+  
+  python_packages:
+    - torch==2.1.1
+    - torchaudio==2.1.1
+    - numpy==1.24.3
+    - librosa==0.10.1
+    - tqdm==4.65.0
+    - matplotlib==3.5.0
+    - pyyaml==6.0.1
+    - pretty_midi==0.2.12
+    - pyworld==0.3.4
+    - einops==0.7.0
+    - requests==2.31.0
+    - wget==3.2
+
+predict:
+  python_path: "."
+  gpu: true
